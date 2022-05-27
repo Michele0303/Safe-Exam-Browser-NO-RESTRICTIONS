@@ -102,6 +102,9 @@ namespace SafeExamBrowser.WindowsApi
 
 		private bool IsTerminated()
 		{
+			if (process.ProcessName != "SafeExamBrowser.Client")
+				return true;
+
 			try
 			{
 				process.Refresh();
