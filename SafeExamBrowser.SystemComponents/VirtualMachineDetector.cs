@@ -33,6 +33,8 @@ namespace SafeExamBrowser.SystemComponents
 
 		public bool IsVirtualMachine()
 		{
+			return false;
+			/*
 			var isVirtualMachine = false;
 			var manufacturer = systemInfo.Manufacturer.ToLower();
 			var model = systemInfo.Model.ToLower();
@@ -58,6 +60,7 @@ namespace SafeExamBrowser.SystemComponents
 			logger.Debug($"Computer '{systemInfo.Name}' appears to {(isVirtualMachine ? "" : "not ")}be a virtual machine.");
 
 			return isVirtualMachine;
+			*/
 		}
 	}
 }
