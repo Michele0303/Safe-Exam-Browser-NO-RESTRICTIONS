@@ -3,6 +3,6 @@
 Safe Exam Browser for Windows. All restrictions are disabled
 
 # Features
-✅ Forced applications closure DISABLED!<br>
-✅ Anti Virtual Machine DISABLED!
+✅ Forced applications closure <b>DISABLED!</b><br>
+✅ Anti Virtual Machine <b>DISABLED!</b>
 
